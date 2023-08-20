@@ -29,7 +29,6 @@
 
 <script setup>
   import { ref } from 'vue'
-  import { storeToRefs } from 'pinia'
   import axios from 'axios'
   import Draggable from 'vuedraggable'
   import TodoItem from '../components/TodoItem.vue'
