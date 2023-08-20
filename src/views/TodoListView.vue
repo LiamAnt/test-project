@@ -5,7 +5,7 @@
     <div class="new_todo">
       <input class="new_todo_input" type="text" placeholder="輸入你的新任務" v-model="newTodoText">
       <button class="send_todo" @click="createNewTodo">
-        <img src="../assets/images/send _icon.svg" alt="新增待辦事項">
+        <img src="../assets/images/send_icon.svg" alt="新增待辦事項">
       </button>
     </div>
     <div v-show="list.length > 0" class="todos_wrap">
