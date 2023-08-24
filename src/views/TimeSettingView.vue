@@ -26,11 +26,6 @@
       <p class="outputData">
         {{ outputData }}
       </p>
-      <!-- <h3>TEST to Prove the store.outputTime is reactive</h3>
-      <p class="outputData">
-        {{ store.outputTime.week_day6 }}
-      </p> -->
-
     </div>
   </div>
 </template>
@@ -97,15 +92,6 @@ const outputData = ref()
 function refreshOutputData() {
   outputData.value = JSON.stringify(store.outputTime)
 }
-
-// watch store is not working
-// watch(
-//   () => store.outputTime,
-//   outputTimeObj => {
-//     console.log('watch store changed')
-//     outputData.value = JSON.stringify(outputTimeObj)
-//   }
-// )
 
 </script>
 
